@@ -1,0 +1,31 @@
+{
+  "id": "session-001",
+  "discipline": "10m_air_pistol",
+  "notes": "Initial test session with side and rear camera videos",
+  "videos": [
+    {
+      "id": "video-side-001",
+      "session_id": "session-001",
+      "camera_role": "side_view",
+      "file_path": "./testdata/session-001/side.mp4",
+      "sync_offset_ms": 0
+    },
+    {
+      "id": "video-rear-001",
+      "session_id": "session-001",
+      "camera_role": "rear_view",
+      "file_path": "./testdata/session-001/rear.mp4",
+      "sync_offset_ms": 420
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-001",
+      "session_id": "session-001",
+      "trigger_time_ms": 72500,
+      "pre_shot_window_ms": 6000,
+      "follow_through_window_ms": 2000,
+      "recovery_window_ms": 2000
+    }
+  ]
+}
