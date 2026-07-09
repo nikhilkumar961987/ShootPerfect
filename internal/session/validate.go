@@ -1,3 +1,9 @@
+/******************************************************************************
+ * Package session defines the shooting session model and session helpers.
+ *
+ * This file contains validation logic for session data. The goal is to catch
+ * missing or incorrect session information before the analysis pipeline starts.
+ *****************************************************************************/
 package session
 
 import (
@@ -6,6 +12,10 @@ import (
 	"github.com/nikhilkumar961987/shootperfect-core/internal/camera"
 )
 
+// Validate checks whether a session has the minimum required data.
+//
+// For the first version, a valid session must have an ID, discipline, at least
+// one video, and both required camera views: side_view and rear_view.
 func Validate(s *Session) error {
 	if s == nil {
 		return fmt.Errorf("session is nil")

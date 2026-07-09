@@ -1,7 +1,18 @@
+/******************************************************************************
+ * Package video defines video metadata used by ShootPerfect Core.
+ *
+ * This package does not perform video processing directly. It only describes
+ * video files that belong to a shooting session, including camera role,
+ * file path, duration, frame rate, resolution, and sync offset.
+ *****************************************************************************/
 package video
 
 import "github.com/nikhilkumar961987/shootperfect-core/internal/camera"
 
+// Video represents one recorded video file attached to a shooting session.
+//
+// A session can have multiple videos, usually from different camera angles.
+// For the first version, we expect at least one side-view video and one rear-view video.
 type Video struct {
 	ID           string      `json:"id"`
 	SessionID    string      `json:"session_id"`
