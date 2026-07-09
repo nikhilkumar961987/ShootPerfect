@@ -10,8 +10,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/nikhilkumar961987/shootperfect-core/internal/session"
-	"github.com/nikhilkumar961987/shootperfect-core/internal/shots"
+	"shootperfect-core/internal/session"
+	"shootperfect-core/internal/shots"
 )
 
 // appLogger defines the logging methods needed by command handlers.

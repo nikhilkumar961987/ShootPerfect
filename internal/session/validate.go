@@ -9,7 +9,7 @@ package session
 import (
 	"fmt"
 
-	"github.com/nikhilkumar961987/shootperfect-core/internal/camera"
+	"shootperfect-core/internal/camera"
 )
 
 // Validate checks whether a session has the minimum required data.

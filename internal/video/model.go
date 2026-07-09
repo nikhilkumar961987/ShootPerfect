@@ -7,7 +7,7 @@
  *****************************************************************************/
 package video
 
-import "github.com/nikhilkumar961987/shootperfect-core/internal/camera"
+import "shootperfect-core/internal/camera"
 
 // Video represents one recorded video file attached to a shooting session.
 //

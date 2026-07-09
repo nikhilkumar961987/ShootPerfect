@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nikhilkumar961987/shootperfect-core/internal/logger"
+	"shootperfect-core/internal/logger"
 )
 
 const version = "v0.1.0"

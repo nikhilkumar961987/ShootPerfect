@@ -1,3 +1,3 @@
-module github.com/nikhilkumar961987/shootperfect-core
+module shootperfect-core
 
-go 1.22.0
+go 1.26

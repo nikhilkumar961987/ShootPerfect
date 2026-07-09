@@ -9,8 +9,8 @@ package session
 import (
 	"time"
 
-	"github.com/nikhilkumar961987/shootperfect-core/internal/shots"
-	"github.com/nikhilkumar961987/shootperfect-core/internal/video"
+	"shootperfect-core/internal/shots"
+	"shootperfect-core/internal/video"
 )
 
 // Session represents one shooting training session or match-simulation attempt.
